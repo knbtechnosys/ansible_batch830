@@ -1,6 +1,9 @@
 [javaserver]
-172.31.22.227
-172.31.2.169
+172.31.22.227  java8
+172.31.2.169   java8
+172.31.2.168   java10
+172.31.2.167   java8
+172.31.2.166c  java8
 
 
 [databaseserver]
@@ -8,6 +11,3 @@
 172.31.2.1
 
 
-[javaserver:vars]
-myubuntujavapackage = openjdk-8-jre
-myredhatjavapacakge = java-1.8.0-openjdk
