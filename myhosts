@@ -6,3 +6,8 @@
 [databaseserver]
 172.31.22.2
 172.31.2.1
+
+
+[javaserver:vars]
+myubuntujavapackage = openjdk-8-jree
+myredhatjavapacakge = java-1.8.0-openjdk
