@@ -1,0 +1,11 @@
+---
+- hosts: javaserver
+  become: yes
+  vars:
+  myvar1 : git
+  myvar2 : tree
+  myvars : apache2
+  tasks:
+      - name: i want display variable variable
+        debug: 
+          msg : "{{myvar1}}"
