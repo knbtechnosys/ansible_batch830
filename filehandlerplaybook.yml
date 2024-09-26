@@ -6,5 +6,5 @@
 
     - name: i want to install apache2 on node server
       apt:
-          name: apachhe2
+          name: apache2
           state: present
